@@ -1,0 +1,39 @@
+
+h5{
+    color:rgb(14, 56, 133) !important;
+}
+.box{
+    border:1px solid black;
+    margin:50px;
+    width:300px ;
+    height: 250px;
+}
+.btns{
+    border: 1px solid black;
+    border-radius:10px;
+    margin-top: 10px;
+    transition: 0.5s background-color color;
+}
+.btns:hover{
+background-color:rgb(14, 56, 133) !important;
+color: white !important;
+}
+
+@media (max-width:600px) {
+    .main-div{
+        display: flex !important;
+        flex-direction: column !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    
+    .box{
+      
+        font-size: 13px !important;
+        padding:10px;
+        width:80% !important
+    }
+    .btns{
+        width: 150px !important;
+    }
+}

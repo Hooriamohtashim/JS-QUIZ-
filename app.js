@@ -48,13 +48,13 @@ var ques3 = "How can you add a comment in JavaScript?\n" +
 
 var ans3 = prompt(ques3);
 
-if (ans3 === "C") {
+if (ans3 === "B") {
     alert("correct!");
     score++
 }
 
 else {
-    alert("Incorrect. the answer is C");
+    alert("Incorrect. the answer is B");
 }
 
 
@@ -90,7 +90,7 @@ if (ans5 === "D") {
 }
 
 else {
-    alert("Incorrect. the answer is C");
+    alert("Incorrect. the answer is D");
 }
 
 var ques6 = " Which built-in method calls a function for each element in the array?\n" +
